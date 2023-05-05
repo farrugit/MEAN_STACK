@@ -6,6 +6,7 @@ const connect = () => {
     const url = process.env.MONGO_CONNECTION_STRING;
     logger.info("process.env.MONGO_CONNECTION_STRING :::" + process.env.MONGO_CONNECTION_STRING);
 
+    /* in place of url provide the conection string of cosmo or mongo db from azure portal in order to connect and store your data to mongo azure resource*/
     mongoose.connect(url, {
         useNewUrlParser: true,
         useFindAndModify: true,
