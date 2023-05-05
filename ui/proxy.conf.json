@@ -1,6 +1,6 @@
 {
     "/api": {
-        "target": "http://mean-api:3080",
+        "target": "http://mean-api:3080",  /*if it doesnt work change it to ::1 in place of mean-api or local host*/
         "secure": false
     }
 }
